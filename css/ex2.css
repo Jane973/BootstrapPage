@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333;
+}
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+.blog-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.navbar-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75em;
+    overflow-y: hidden;
+}
+.box-shadow {
+    box-shadow:0 0.25rem 0.75rem rgba(0, 0, 0, .05)
+}
+
+@media(max-width: 785px) {
+    .card img {
+        display: none;
+    }
+}
+.blog-post-meta {
+    margin-bottom: 1.25em;
+}
+.blog-pagination {
+    margin-bottom: 4em;
+}
+.blog-pagination a {
+    border-radius: 2em;
+}
+footer {
+    padding:40px 0;
+    border-top: .05rem solid #e5e5e5;
+}
